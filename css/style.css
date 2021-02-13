@@ -7,8 +7,8 @@
 
 html{	
 	font-family: 'Lato', 'Arial', sans-serif;
-	color: #FAF4D3;
-	background-color: #004643;
+	color: #D1C7CE;
+	background-color: #202226;
 	font-weight: 300;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
@@ -34,30 +34,30 @@ nav{
 
 .main-nav li a:link, 
 .main-nav li a:visited {
-	border-bottom: 4px solid #004643;
+	border-bottom: 4px solid #006FFF;
 	text-decoration: none;
-	color: #FAF4D3;
+	color: #FBECF8;
 	font-size: 90%;
 	padding: 10px 0;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	color: #D1AC00;
 	border-width: 3px;
 	margin-top: -3px;
 	margin-bottom: -3px;
+	background-color: #006FFF;
 	transition: background-color 0.5s, padding 0.5s, border-box 0.5s, color 0.5s;
 	border-radius: 20px;
 	border-style: solid;
-	border-color: #bdc3c7;
+	border-color: #FBECF8;
 	padding: 10px 35px;
 }
 /*-------------------------------------
 HEADER
 -------------------------------------*/
 header{
-	background-image: linear-gradient(rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0.7)) ,url(images/editing.jpg);
+	background-image: linear-gradient(rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0.7)) ,url(images/capsbottle.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -71,10 +71,13 @@ header{
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.hero-text-box h1{
+	color: #FBECF8;
+}
 
 h1, h2, h3, h4, p{
 	margin: 0;
-	color: #FAF4D3;
+	color: #D1C7CE;
 	font-size: 240%;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -87,7 +90,7 @@ h2{
 }
 h2:after{
 	display: block;
-	background-color: #FAF4D3;
+	background-color: #006FFF;
 	height: 1px;
 	content: " ";
 	width: auto;
@@ -107,7 +110,7 @@ SECTION ABOUT
 
 }
 .section-about .title:hover, .section-offers .title:hover, .section-steps .title:hover{
-	color: #D1AC00;
+	color: #006FFF;
 	transition: color 0.7s;
 }
 h3, h3{
@@ -117,9 +120,9 @@ h3, h3{
 	font-size: 120%;
 }
 #mission:hover, #vision:hover{
-	border-left: solid 1px #FAF4D3;
+	box-shadow: 20px 20px black;
 	padding: 0 15px;
-	transition: border-box 0.7s, padding 0.7s;
+	transition: box-shadow 0.7s, padding 0.7s;
 }
 #vision p, #mission p, .section-offers p, .section-steps p{
 	font-size: 100%;
@@ -137,8 +140,8 @@ hr{
 SECTION OFFERS
 ----------------------------*/
 .section-offers > *, .section-offers{
-	background-color: #FAF4D3;
-	color: #0c1618;
+	background-color: #F5FAFF;
+	color: #150513;
 }
 .section-offers h2:after{
 	display: none;
@@ -148,7 +151,7 @@ SECTION OFFERS
 }
 #offers h3:after{
 	display: block;
-	background-color: #FAF4D3;
+	background-color: #006FFF;
 	height: 1px;
 	content: " ";
 	width: 15%;
@@ -159,7 +162,7 @@ SECTION OFFERS
 	text-align: center;
 }
 .offer .img, .offer .img2, .offer .img4, .offer .img3{
-	border: 1px solid #0c1618;
+	border: 1px solid #006FFF;
 	display: block;
 	margin-top: 30px;
 	margin-bottom: 40px;
@@ -170,16 +173,14 @@ SECTION OFFERS
 	padding-top: 65px;
 }
 .section-offers p{
-	color: #0c1618;
+	color: #001833;
 	padding-bottom: 50px;
 }
 .offer .img2, .offer .img3 {
 	display: none;
 }
 .offer img:hover{
-	border-right: 1px solid #0c1618;
-	border-bottom: 1px solid #0c1618;
-	box-shadow: 10px 10px black;
+	box-shadow: 15px 15px 0 black;
 	transition: border 0.5s, box-shadow 0.7s;
 }
 /*-------------------------------
@@ -187,7 +188,7 @@ STEPS
 -------------------------------*/
 .section-steps h2:after{
 	margin-top: 35px;
-	background-color: #F6BE9A;
+	background-color: #006FFF;
 }
 .section-steps h2{
 	padding: 0;
@@ -204,17 +205,20 @@ FOOTER
 ------------------------------*/
 
 .footer{
-	background-color: #0c1618;
+	background-color: #090C12;
+	color: white;
 }
 h4{
 	margin: 20px 0;
 	font-size: 85%;
 	text-align: left;
+	color: white;
 }
 .footer p{
 	font-size: 80%;
 	margin-bottom: 59px;
 	text-align: center;
+	color: white;
 }
 .social-links{
 	list-style: none;
@@ -226,4 +230,5 @@ h4{
 	float: right;
 	margin: 10px;
 	font-size: 130%;
+	color: white;
 }

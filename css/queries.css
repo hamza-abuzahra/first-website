@@ -1,0 +1,60 @@
+/*BIG TABLETS TO 1200 PX*/
+@media only screen and (max-width: 1200px) {
+	
+	.hero-text-box{
+
+		width: 100%;
+		padding: 0 2%;
+	}
+	.row{
+		padding: 0 2%;
+	}
+}
+/*SMALL TABLETS TO BIG TABLET 768 TO 1023PX*/
+@media only screen and (max-width: 1023px) {
+	body{
+		font-size: 18px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	#offer .img{
+		display: none;
+	}
+	#offer .img2{
+		display: block;
+	}
+}
+/*LARGER SMALL PHONES AND SMALL TABLETS 481PX TO 767PX*/
+@media only screen and (max-width: 767px){
+	.span-1-of-2{
+		width: 100%;
+	}
+	.profile-photo{ 
+		margin-left: 32%;
+	}
+	.main-nav li{
+		margin: 3%;
+	}
+}
+
+
+/*SMALL PHONES 0 TO 480PX*/
+@media only screen and (max-width: 480px) {
+	
+	#offer .img4{
+		display: none;
+	}
+	#offer .img3{
+		display: block;
+	}
+	.profile-photo{ 
+		margin-left: 20%;
+	}
+	.footer {
+		padding-bottom: 30px; 
+	}
+	.footer .row{
+		height: 50px;
+	}
+}

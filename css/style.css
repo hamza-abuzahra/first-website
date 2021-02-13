@@ -1,1 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
 
+html{	
+	font-family: 'Lato', 'Arial', sans-serif;
+	color: #FAF4D3;
+	background-color: #004643;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+/*-------------------------------
+NAVBAR
+-------------------------------*/
+nav{
+	text-align: center;
+	list-style: none;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin: 40px;
+	margin-top: 60px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+	border-bottom: 4px solid #004643;
+	text-decoration: none;
+	color: #FAF4D3;
+	font-size: 90%;
+	padding: 10px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	color: #D1AC00;
+	border-width: 3px;
+	margin-top: -3px;
+	margin-bottom: -3px;
+	transition: background-color 0.5s, padding 0.5s, border-box 0.5s, color 0.5s;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #bdc3c7;
+	padding: 10px 35px;
+}
+/*-------------------------------------
+HEADER
+-------------------------------------*/
+header{
+	background-image: linear-gradient(rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0.7)) ,url(images/editing.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.hero-text-box{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1, h2, h3, h4, p{
+	margin: 0;
+	color: #FAF4D3;
+	font-size: 240%;
+	font-weight: 300;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+h2{
+	font-size: 170%;
+	text-align: center;
+	padding-top: 130px;
+}
+h2:after{
+	display: block;
+	background-color: #FAF4D3;
+	height: 1px;
+	content: " ";
+	width: auto;
+	margin: 0 auto;
+	margin-top: 120px;
+
+}
+/*--------------------------
+SECTION ABOUT
+--------------------------*/
+.profile-photo{
+	margin-top: 35px;
+	margin-left: 50px;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px; 
+
+}
+.section-about .title:hover, .section-offers .title:hover, .section-steps .title:hover{
+	color: #D1AC00;
+	transition: color 0.7s;
+}
+h3, h3{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 120%;
+}
+#mission:hover, #vision:hover{
+	border-left: solid 1px #FAF4D3;
+	padding: 0 15px;
+	transition: border-box 0.7s, padding 0.7s;
+}
+#vision p, #mission p, .section-offers p, .section-steps p{
+	font-size: 100%;
+}
+
+hr{
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+/*
+----------------------------
+SECTION OFFERS
+----------------------------*/
+.section-offers > *, .section-offers{
+	background-color: #FAF4D3;
+	color: #0c1618;
+}
+.section-offers h2:after{
+	display: none;
+}
+#offers h3{
+	margin-top: 50px;
+}
+#offers h3:after{
+	display: block;
+	background-color: #FAF4D3;
+	height: 1px;
+	content: " ";
+	width: 15%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.offer p{
+	text-align: center;
+}
+.offer .img, .offer .img2, .offer .img4, .offer .img3{
+	border: 1px solid #0c1618;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section-offers .title{
+	padding-top: 65px;
+}
+.section-offers p{
+	color: #0c1618;
+	padding-bottom: 50px;
+}
+.offer .img2, .offer .img3 {
+	display: none;
+}
+.offer img:hover{
+	border-right: 1px solid #0c1618;
+	border-bottom: 1px solid #0c1618;
+	box-shadow: 10px 10px black;
+	transition: border 0.5s, box-shadow 0.7s;
+}
+/*-------------------------------
+STEPS
+-------------------------------*/
+.section-steps h2:after{
+	margin-top: 35px;
+	background-color: #F6BE9A;
+}
+.section-steps h2{
+	padding: 0;
+	margin-top: 50px;
+}
+.step{
+	margin-top: 35px;
+}
+.step p{
+	margin: 60px 0;
+}
+/*------------------------------
+FOOTER
+------------------------------*/
+
+.footer{
+	background-color: #0c1618;
+}
+h4{
+	margin: 20px 0;
+	font-size: 85%;
+	text-align: left;
+}
+.footer p{
+	font-size: 80%;
+	margin-bottom: 59px;
+	text-align: center;
+}
+.social-links{
+	list-style: none;
+}
+.social-links a{
+	text-decoration: none;
+}
+.ion-social-facebook-outline, .ion-social-instagram-outline, .ion-social-twitter-outline{
+	float: right;
+	margin: 10px;
+	font-size: 130%;
+}

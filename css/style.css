@@ -135,6 +135,11 @@ hr{
 	margin-top: 15px;
 	margin-bottom: 45px;
 }
+.skill-logo{
+	margin: 0 auto;
+	width: 40%;
+	height: 40%;
+}
 /*
 ----------------------------
 SECTION OFFERS
@@ -168,6 +173,8 @@ SECTION OFFERS
 	margin-bottom: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 400px;
+	height: 250px;
 }
 .section-offers .title{
 	padding-top: 65px;
@@ -199,6 +206,11 @@ STEPS
 }
 .step p{
 	margin: 60px 0;
+}
+.step a{
+	text-decoration: none;
+	color: #D1C7CE;
+	border-bottom: #006FFF 1px solid;
 }
 /*------------------------------
 FOOTER

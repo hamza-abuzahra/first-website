@@ -178,6 +178,7 @@ SECTION OFFERS
 }
 .section-offers .title{
 	padding-top: 65px;
+	text-decoration: none;
 }
 .section-offers p{
 	color: #001833;
@@ -186,7 +187,7 @@ SECTION OFFERS
 .offer .img2, .offer .img3 {
 	display: none;
 }
-.offer img:hover{
+.offer .img:hover, .offer .img2:hover, .offer .img3:hover, .offer .img4:hover{
 	box-shadow: 15px 15px 0 black;
 	transition: border 0.5s, box-shadow 0.7s;
 }

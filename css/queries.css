@@ -34,12 +34,15 @@
 	.hero-text-box{
 		transform: translate(-50%, -200px);
 	}
+	header{
+		height: 70vh;
+	}
 	#gallery{
 		width: 80%;
 		height: 75%;
 
 		position: relative;
-		transform: translate(-80px, 150px);
+		transform: translate(-80px, 200px);
 	}
 	.span-1-of-2{
 		width: 100%;

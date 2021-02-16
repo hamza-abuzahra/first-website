@@ -22,10 +22,10 @@
 	section {
 		padding: 60px 0;
 	}
-	#offer .img{
+	.offer .img{
 		display: none;
 	}
-	#offer .img2{
+	.offer .img2{
 		display: block;
 	}
 }
@@ -61,10 +61,10 @@
 	div .step p{
 		margin: 10px 0;
 	} 
-	#offer .img4{
+	.offer .img4{
 		display: none;
 	}
-	#offer .img3{
+	.offer .img3{
 		display: block;
 	}
 	.profile-photo{ 

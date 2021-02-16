@@ -198,6 +198,9 @@ SECTION OFFERS
 	height: 400px;
 	width: 250px;
 }
+.offer .img2{
+	width: 85%;
+}
 .offer .img2, .offer .img3 {
 	display: none;
 }

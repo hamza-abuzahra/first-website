@@ -55,6 +55,9 @@
 
 /*SMALL PHONES 0 TO 480PX*/
 @media only screen and (max-width: 480px) {
+	div .step p{
+		margin: 10px 0;
+	} 
 	#offer .img4{
 		display: none;
 	}

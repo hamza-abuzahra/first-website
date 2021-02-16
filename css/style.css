@@ -176,7 +176,7 @@ SECTION OFFERS
 .offer p{
 	text-align: center;
 }
-.offer .img, .offer .img2, .offer .img4, .offer .img3{
+.offer .img, .offer .img4{
 	border: 1px solid #006FFF;
 	display: block;
 	margin-top: 30px;
@@ -198,12 +198,7 @@ SECTION OFFERS
 	height: 400px;
 	width: 250px;
 }
-.offer .img2{
-	width: 85%;
-}
-.offer .img2, .offer .img3 {
-	display: none;
-}
+
 .offer .img:hover, .offer .img2:hover, .offer .img3:hover, .offer .img4:hover{
 	box-shadow: 15px 15px 0 black;
 	transition: border 0.5s, box-shadow 0.7s;

@@ -22,12 +22,7 @@
 	section {
 		padding: 60px 0;
 	}
-	.offer .img{
-		display: none;
-	}
-	.offer .img2{
-		display: block;
-	}
+
 }
 /*LARGER SMALL PHONES AND SMALL TABLETS 481PX TO 767PX*/
 @media only screen and (max-width: 868px){
@@ -61,11 +56,8 @@
 	div .step p{
 		margin: 10px 0;
 	} 
-	.offer .img4{
-		display: none;
-	}
-	.offer .img3{
-		display: block;
+	.offer .img{
+		width: 90%;
 	}
 	.profile-photo{ 
 		margin: 0 20%;

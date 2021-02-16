@@ -12,6 +12,10 @@
 }
 /*SMALL TABLETS TO BIG TABLET 768 TO 1023PX*/
 @media only screen and (max-width: 1023px) {
+	#gallery{
+		width: 55%;
+		height: 45%;
+	}
 	body{
 		font-size: 18px;
 	}
@@ -27,11 +31,21 @@
 }
 /*LARGER SMALL PHONES AND SMALL TABLETS 481PX TO 767PX*/
 @media only screen and (max-width: 868px){
+	.hero-text-box{
+		transform: translate(-50%, -200px);
+	}
+	#gallery{
+		width: 80%;
+		height: 75%;
+
+		position: relative;
+		transform: translate(-80px, 150px);
+	}
 	.span-1-of-2{
 		width: 100%;
 	}
 	.profile-photo{ 
-		margin-left: 32%;
+		margin:0 30%;
 	}
 	.main-nav li{
 		margin: 3%;
@@ -41,7 +55,6 @@
 
 /*SMALL PHONES 0 TO 480PX*/
 @media only screen and (max-width: 480px) {
-	
 	#offer .img4{
 		display: none;
 	}
@@ -49,7 +62,7 @@
 		display: block;
 	}
 	.profile-photo{ 
-		margin-left: 20%;
+		margin: 0 20%;
 	}
 	.footer {
 		padding-bottom: 30px; 

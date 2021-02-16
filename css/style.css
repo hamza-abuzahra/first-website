@@ -56,6 +56,11 @@ nav{
 /*-------------------------------------
 HEADER
 -------------------------------------*/
+.html5gallery-box-0 a div{
+	overflow: hidden;;
+	width: 0px !important;
+	height: 0px !important;
+}
 header{
 	background-image: linear-gradient(rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0.7)) ,url(images/capsbottle.jpg);
 	background-attachment: fixed;
@@ -63,7 +68,12 @@ header{
 	background-size: cover;
 	height: 100vh;
 }
-
+#gallery{
+	float: right;
+	width: 70%;
+	height: 55%;
+	margin: 2%;
+}
 .hero-text-box{
 	position: absolute;
 	width: 1140px;
@@ -105,9 +115,9 @@ SECTION ABOUT
 	margin-top: 35px;
 	margin-left: 50px;
 	border-radius: 50%;
+	overflow: hidden;
+	height: 350px;
 	width: 250px;
-	height: 250px; 
-
 }
 .section-about .title:hover, .section-offers .title:hover, .section-steps .title:hover{
 	color: #006FFF;
@@ -152,7 +162,7 @@ SECTION OFFERS
 	display: none;
 }
 #offers h3{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #offers h3:after{
 	display: block;
@@ -177,12 +187,16 @@ SECTION OFFERS
 	height: 250px;
 }
 .section-offers .title{
-	padding-top: 65px;
+	padding-top: 45px;
 	text-decoration: none;
 }
 .section-offers p{
 	color: #001833;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
+}
+.offer .img3, .offer .img4{
+	height: 400px;
+	width: 250px;
 }
 .offer .img2, .offer .img3 {
 	display: none;

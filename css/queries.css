@@ -68,7 +68,9 @@
 	width: 90%;
 	}
 	.profile-photo{ 
-		margin: 0 9%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.footer {
 		padding-bottom: 30px; 

@@ -31,13 +31,19 @@ nav{
 	margin: 40px;
 	margin-top: 60px;
 }
-
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #090C12;
+	z-index: 9999;
+}
 .main-nav li a:link, 
 .main-nav li a:visited {
 	border-bottom: 4px solid #006FFF;
 	text-decoration: none;
 	color: #FBECF8;
-	font-size: 90%;
 	padding: 10px 0;
 }
 
@@ -52,6 +58,20 @@ nav{
 	border-style: solid;
 	border-color: #FBECF8;
 	padding: 10px 35px;
+}
+.sticky .main-nav li a{
+	margin: 20px 30px 30px 30px;
+}
+.mobile-nav-icon{
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+.mobile-nav-icon i{
+	font-size: 200%;
+	color: white;
+
 }
 /*-------------------------------------
 HEADER

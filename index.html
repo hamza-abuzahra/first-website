@@ -24,18 +24,25 @@
 	<meta name="description" content="Welcom to my portfolio.">
 
 	<title>Paradise</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 	<script type="text/javascript" src="html5gallery/jquery.js"></script>
 	<script type="text/javascript" src="html5gallery/html5gallery.js"></script>
+	<script type="text/javascript" src="jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-	<header>
-		<nav class="row">
-			<ul class="main-nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#offers">Offers</a></li>
-				<li><a href="#contact">Contact me</a></li>
-			</ul>
+	<header class="js--section-home">
+		<nav>
+			<div class="row">
+				<ul class="main-nav js--main-nav">
+					<li><a class="js--scroll-to-home" href="#">Home</a></li>
+					<li><a class="js--scroll-to-about" href="#" >About</a></li>
+					<li><a class="js--scroll-to-offers" href="#">Offers</a></li>
+					<li><a class="js--scroll-to-contact" href="#">Contact me</a></li>
+				</ul>
+				<a class="mobile-nav-icon js--mobile-nav-icon"><i class="ion-navicon-round"></i></a>
+			</div>
 		</nav>
 		<div class="hero-text-box">
 			<h1>Latest Work</h1>
@@ -57,7 +64,7 @@
 		</div>
 	</header>
 	
-	<section class="section-about" id="about">
+	<section class="section-about js--section-about" id="about">
 		<div class="row">
 			<div class="col span-1-of-2">
 				<img src="images/profilephot.jpeg" alt="bissan's photo" class="profile-photo">
@@ -65,15 +72,16 @@
 		<h2 class="title col span-1-of-2">About</h2>
 		</div>
 		<div class="row">
-			<div class="col span-1-of-2" id="mission">
-				<h3>Mission</h3>
-				<p>Delivering high quality and professional video editing skills. customer satisfaction is our mission. </p>
-			</div>
 			<div class="col span-1-of-2"  id="vision">
 				<h3>Vision</h3>
 				<p>Become a leading company in film and video making industry.
 				</p>
 			</div>
+			<div class="col span-1-of-2" id="mission">
+				<h3>Mission</h3>
+				<p>Delivering high quality and professional video editing skills. customer satisfaction is our mission. </p>
+			</div>
+			
 		</div>
 		
 		<hr>
@@ -93,7 +101,7 @@
 		</div>
 	</section>
 
-	<section class="section-offers" id="offers">
+	<section class="section-offers js--section-offers" id="offers">
 		<h2 class="title" >Offers</h2>
 		<h3>Photo</h3>
 		<div class="row">
@@ -130,7 +138,7 @@
 			<div class="col span-1-of-2 offer">
 				<video class="img" controls autoplay muted>
 					<source src="images/intro3.mp4">
-				</video>
+</video>
 				
 				<p>Intros & Outros <br> <br> I will work to make awesome intors & outros to your videos. All you have to do is to decide upon a theme & I will do the rest.</p>
 			</div>
@@ -150,7 +158,7 @@
 		
 	</section>
 
-	<section class="section-steps" id="contact">
+	<section class="section-steps js--section-contact" id="contact">
 		<div class="row">
 			<h2 class="title">How to benefit from my offers</h2>
 		</div>
@@ -190,7 +198,9 @@
 		</div>
 		<div class="row">
 			<p>bissan.abuzahra@gmail.com <br><br></p>
-		</div>
+</div>
 	</section>
+
+	
 </body>
 </html>

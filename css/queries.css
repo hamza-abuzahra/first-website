@@ -29,9 +29,7 @@
 	.hero-text-box{
 		transform: translate(-50%, -200px);
 	}
-	header{
-		height: 70vh;
-	}
+
 	#gallery{
 		width: 80%;
 		height: 75%;
@@ -53,11 +51,14 @@
 
 /*SMALL PHONES 0 TO 480PX*/
 @media only screen and (max-width: 480px) {
+	.hero-text-box{
+		transform: translate(-50%, -150px);
+	}
 	div .step p{
 		margin: 10px 0;
 	} 
 	.offer .img{
-		width: 90%;
+	width: 90%;
 	}
 	.profile-photo{ 
 		margin: 0 20%;
@@ -71,5 +72,28 @@
 	.skill-logo{
 		margin: 3% 30%;
 		width: 40%;
+	}
+	.main-nav{
+		display: none;
+	}
+	.mobile-nav-icon{
+		display: inline-block;
+		margin: 5px;
+	}
+	.main-nav li{
+		display: block;
+		padding: 0;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited{
+		display: block;
+		border: 0;
+		padding: 0;
+	}
+	.main-nav li a:active, 
+	.main-nav li a:hover{
+		background-color: transparent;
+		border: 0;
+		padding: 0;
 	}
 }

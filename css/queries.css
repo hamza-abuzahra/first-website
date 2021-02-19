@@ -22,6 +22,9 @@
 	section {
 		padding: 60px 0;
 	}
+	.row{
+		width: 100%;
+	}
 
 }
 /*LARGER SMALL PHONES AND SMALL TABLETS 481PX TO 767PX*/
@@ -51,6 +54,10 @@
 
 /*SMALL PHONES 0 TO 480PX*/
 @media only screen and (max-width: 480px) {
+	.body{
+		padding: 0;
+		margin: 0;
+	}
 	.hero-text-box{
 		transform: translate(-50%, -150px);
 	}
@@ -61,7 +68,7 @@
 	width: 90%;
 	}
 	.profile-photo{ 
-		margin: 0 20%;
+		margin: 0 5%;
 	}
 	.footer {
 		padding-bottom: 30px; 

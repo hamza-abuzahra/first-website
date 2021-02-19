@@ -32,7 +32,11 @@ $(document).ready(function() {
     });
     $('.js--main-nav li a').click(function() {
         var nav = $('.js--main-nav');
-        nav.slideToggle(200)
+        console.log(screen.availWidth)
+        if (screen.width <= 480){
+            nav.slideToggle(200)
+        }
+        
     })
     // var waypoints = $('#handler-first').waypoint(function(direction) {
     //     notify(this.element.id + ' hit 25% from top of window') 
